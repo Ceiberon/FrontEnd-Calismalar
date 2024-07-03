@@ -1,0 +1,211 @@
+:root {
+    --Ana-renk: #6527be;
+    --Ara-renk: #45cfdd;
+    --Yazı-rengi: #9681eb;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    background-color: var(--Ana-renk);
+    min-width: 100%;
+    height: 70px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    background-color: #45cfdd;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.menu .menu-item {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menu .menu-item:hover {
+    background-color: var(--Ara-renk);
+}
+
+.menu .menu-item a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .main{
+        background-color: #45cfdd;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main img{
+        border: 10px solid #fff;
+    }
+
+    .main h2{
+        letter-spacing: 1.5px;
+        word-spacing: 2.5px;
+    }
+
+    .main p{
+        text-align: center;
+        word-spacing: 1.5px;
+        letter-spacing: 1.5px;
+    }
+
+    .Projects{
+        background-color: #45cfdd;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .project {
+        margin-top: 15px;
+        border: 2px solid #fff;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .project img{
+        width:350px;
+        margin: 10px;
+        border: solid 5px;
+        margin-bottom: 0px;
+      }
+
+      .project .project-title{
+        text-align: center;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #fff;
+      }
+
+      .about{
+    
+        background-color: #45cfdd;
+        display: flex;
+        flex-direction:column ;
+        width: 100%;
+        height: 550px;
+        align-items: center;
+        }
+
+
+      .about h1{
+        text-align: center;
+        letter-spacing: 1.5px;
+        word-spacing: 1.5px;
+      }
+      .about-details img{
+        height: 500px;
+        width: 800px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+      .about-details{
+        display: flex;
+      }
+
+
+      .contact{
+        width: 100%;
+        background-color:#45cfdd;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+
+    
+      }
+
+      .contact h1{
+        margin-bottom: 15px;
+      }
+.contack form input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.contact form textarea{
+    width: 420px;
+    height: 110px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+
+}
+.form-header{
+    display: flex;
+}
+
+.contact form{
+    display: flex;
+    flex-direction:column ;
+align-items: center;
+}
+
+button{
+    width:150px ;
+    height:40px ;
+    border: none;
+    outline: node;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.footer{
+width: 100%;
+background-color:#6527be;
+display: flex;
+justify-content: space-between;
+align-items:center ;
+padding: 50px;
+margin-top: 50px;
+
+}
+
+.footer li{
+    list-style: none;
+    padding: 5px;
+}
+
+a{
+    text-align: none;
+    color: #fff;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}

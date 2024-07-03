@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--
+        div p (divin içindeki paragrafa etki eder (eğer içeri span tarzı ayırıcı etki kullanılırsa etki eder))
+        div + p (Divden sonra gelen paragrafa etki eder)
+
+        div > p (divin içindeki sadece divlere etki eden paragraflara etki eder yani içerisine section tarzı başka grup elemanları atarsak onlara etki etmez)
+        div ~ p (divden sonraki bütün paragraflara etki eder)
+
+
+    -->
+    <style>
+       div p{
+            color: red;
+
+        }
+        span{
+            color: blue;
+        }
+
+        div>p{
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <span>Corporis unde animi vel labore voluptatum quas rerum </span> dolores explicabo, obcaecati totam eum quaerat. In omnis tenetur voluptatem. Ratione alias autem adipisci aut voluptas nihil dolorem reiciendis possimus dolores, ducimus esse repellat.</p>
+    <div>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quod error itaque dignissimos? Molestiae doloribus alias ipsum nam ab fuga modi vel nobis quae numquam cumque blanditiis placeat, minima natus?</p>
+
+<section>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit repellat quos qui a sint vel aspernatur, obcaecati hic earum similique quam officiis commodi possimus deserunt dolor quod asperiores necessitatibus incidunt?</p>
+</section>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem hic voluptate, suscipit quo odio soluta! Libero provident nobis magnam aut vero. Officiis et, excepturi maxime aperiam cum nemo earum illo.</p>
+
+    </div>
+
+
+
+</body>
+</html>

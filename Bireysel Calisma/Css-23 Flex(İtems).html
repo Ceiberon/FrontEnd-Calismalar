@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container{
+            display: flex;
+             gap: 5px;
+             width: 900px;
+             height: 500px;
+             background-color: blue;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 24px;
+            color: white;
+            line-height: 100px;
+            margin: 10px;
+        }
+        .mybox{
+            flex-grow: 2;
+            align-self: flex-end;
+        }
+
+        .mybox2{
+            flex-shrink: 3;
+        }
+        .mybox{
+            flex-shrink: 4;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box mybox">3</div>
+        <div class="box mybox2">4</div>
+        <div class="box mybox3">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+    </div>
+</body>
+</html>

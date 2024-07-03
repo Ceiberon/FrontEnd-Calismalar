@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breadcrumb</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Anasayfa</li>
+      </ol>
+    </nav>
+
+    <nav>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#">Anasayfa</a>
+        </li>
+        <li class="breadcrumb-item active" aria-current="page">Hakkımızda</li>
+      </ol>
+    </nav>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
+        <li class="breadcrumb-item"><a href="#">Hakkımızda</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Biz kimiz</li>
+      </ol>
+    </nav>
+
+    <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Ana Sayfa</a></li>
+        <li class="breadcrumb-item"><a href="#">Hakkımızda</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Biz kimiz</li>
+      </ol>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

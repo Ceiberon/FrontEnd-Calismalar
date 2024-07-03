@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+            display: grid;
+            background-color: rgb(36, 36, 35);
+            color:#969696 ;
+            height: 100vh;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-areas:
+            "Header Header Header"
+            "Sidebar Content Sidebar2"
+            "Footer Footer Footer"
+            ;
+        }
+        .box{
+            background-color:rgb(51, 50, 50) ;
+            margin: 20px;
+            text-align: center;
+            height: 200px;
+            
+
+        }
+        .Header{
+            grid-area: Header;
+            text-align: center;
+        }
+        .Sidebar{
+            grid-area:Sidebar ;
+
+        }
+
+        .Sidebar2{
+            grid-area:Sidebar2 ;
+
+        }
+
+        .Content{
+            grid-area: Content ;
+            text-align: center;
+
+
+        }
+        .Footer{
+            grid-area: Footer;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box Header">Header
+<p>
+    Bu projemde sizlere Css grid ile site tasarımı yapmayı denemeyi ve öğrenmeye çalıştım sayfa içini doldurmayı öğrenmek 10 dk mı almış olsa bile en azından öğrenip bir şeyler yapmaya çalıştım
+</p>
+<img src="Resimler/Screenshot_56.png" width="200px" height="163px" alt="">
+        </div>
+        <div class="box Sidebar">Sidebar
+            <P>Beni bu meraka ve işlere yönlendirdiği için abime sonsuz teşekkürler ve saygılar </P>
+        </div>
+        <div class="box Sidebar2">Sidebar2
+            <p>Yazılım işin zor işmiş allahıma çok garip geliyor ama eğlenceli bir şeyler yapmak etmek zevkli
+                <br>
+                <img src="Resimler/Screenshot_43.png" width="200px" height="145px" alt="">
+            </p>
+        </div>
+        <div class="box Content">Content
+            <p>Buraya ne yazcam bilmiyom foto attım
+                <br>
+                <img src="Resimler/gitbasimdan.png" width="300px"height="150px" alt="">
+            </p>
+        </div>
+        <div class="box Footer">Footer
+            <p>Demi abimede teşekkürler abim sagolasın yardımcı oldu başını şişirdik azcıkta olsa eyw abi sen olmasan buralara gelemezdik</p>
+            <br>
+            <img src="Resimler/DEMİ ABİMLE.jpg" height="145px"
+            width="200px">
+        </div>
+
+    </div>
+
+
+</body>
+</html>

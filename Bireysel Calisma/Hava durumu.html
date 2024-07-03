@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap dosyaları/bootstrap.css">
+
+    <style>
+        
+
+        
+        :root {
+    --Ana-renk: #6527be;
+    --Ara-renk: #45cfdd;
+    --Yazı-rengi: #9681eb;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-menu {
+    background-color: var(--Ana-renk);
+    min-width: 100%;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.menu .menu-item {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.menu .menu-item:hover {
+    background-color: var(--Ara-renk);
+}
+
+.menu .menu-item a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+    .kutu{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        align-self:center;
+              
+
+    }
+
+    body{
+        background-image:url(https://gifdb.com/images/high/aesthetic-anime-heavy-rain-splash-jeajbmb2ohg1x7z3.gif);
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    
+
+    </style>
+
+</head>
+<body>  
+        <hr>
+        <div class="nav-menu">
+    
+            <ul class="menu" >
+             <li class="menu-item" > <a href="#">Ana sayfa</a> </li>
+             <li class="menu-item" > <a href="#">Haberler</a> </li>
+             <li class="menu-item" > <a href="#">İletişim</a> </li>
+            </ul>
+            </div>
+        <div class="kutu">
+        <label for="Şehir"></label>
+        <input type="text" placeholder="Şehir">
+            </div>
+            <script src="Bootstrap dosyaları/bootstrap.js"></script>
+    
+</html>

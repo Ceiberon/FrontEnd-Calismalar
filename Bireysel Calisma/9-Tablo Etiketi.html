@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        table: HTML'de tablo oluşturmaya yarar.
+
+        thead: tablonun başlıklarını oluşturur
+
+        tbody: tablonun içeriğini oluşturur
+
+        tr:tablo row anlamına gelir tabloya satır oluşturur
+
+        th:tablonun başlıklarını içerir
+
+        Td: tablonun içerklerini doldurmayı sağlar
+
+        colspan:stun genişliği yer kaplama sayısı(2 yaparsan yandaki stunude kaplar)
+
+        rowspan: Satır genişliği yer kaplama sayısı (Satırları kapsar)
+
+        bgcolor: renk eklemek
+    -->
+<table border="1">
+    <caption>Tablo örneği1</caption>
+    <thead>
+    <tr>
+    <th>Başlık1</th> 
+    <th>Başlık2</th>   
+    <th>Başlık3</th>
+    </tr>  
+    </thead>
+
+    <tbody>
+     <tr>
+      <td bgcolor="red">İçerik1</td>
+      <td rowspan="2" bgcolor="blue" >İçerik2</td>
+      <td bgcolor="black">İçerik3</td>
+     </tr>
+     
+    <td colspan="">İçerik4</td>
+    <td>içerik5</td>
+    </tbody>
+</table>
+
+</body>
+</html>
