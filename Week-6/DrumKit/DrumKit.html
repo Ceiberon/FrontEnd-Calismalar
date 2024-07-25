@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+<style>
+body{
+  background-color: aqua;
+  
+}
+.container{
+  margin-right: 150px;
+}
+.A{
+  background-color: blue;
+  color: aliceblue; 
+  padding: 27px; 
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ margin-top: 50px;
+ margin-bottom: 50px;
+ padding-left:30px;
+ padding-right:30px;
+}
+</style>
+
+  </head>
+  <body>
+
+    <audio id="Boom">
+      <source src="Sound/boom.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="Clap">
+      <source src="Sound/clap.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="Hihat">
+      <source src="Sound/hihat.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="Kick">
+      <source src="Sound/kick.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="OpenHat">
+      <source src="Sound/openhat.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+    
+    <audio id="Ride">
+      <source src="Sound/ride.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="Snare">
+      <source src="Sound/snare.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+    
+    <audio id="Tink">
+      <source src="Sound/tink.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="Tom">
+      <source src="Sound/tom.wav" type="audio/wav"> 
+      Your browser does not support the audio element.
+    </audio>
+
+
+
+
+
+<div class="container">
+  
+  <img height="600px"  src="drum.png" alt="">
+   </div>
+   
+<div class="buttons" >
+    <button  onclick="playBoom()" type="button" class="A" >A</button>
+    <button  onclick="playClap()" type="button" class="A" >S</button>
+    <button  onclick="playHihat()" type="button" class="A" >D</button>
+    <button  onclick="playKick()" type="button" class="A" >F</button>
+    <button  onclick="playOpenHat()" type="button" class="A" >G</button>
+    <button  onclick="playRide()" type="button" class="A" >H</button>
+    <button  onclick="playSnare()" type="button" class="A" >J</button>
+    <button  onclick="playTink()" type="button" class="A" >K</button>
+    <button  onclick="playTom()" type="button" class="A" >L</button>
+  </div>
+
+
+<script src="Drumkit.js"></script>
+
+  </body>
+</html>
